@@ -20,9 +20,12 @@ class Skiplist:
         dummy = 0
         
 
+    # Build this first; assume skiplist is completely empty
+    # I believe the head of the list must always be >= the highest other element in the list,
+    # thus if overall height is increased the head must also be increased to match
     def add(self, num: int) -> None:
         dummy = 0
-        
+
 
     def erase(self, num: int) -> bool:
         dummy = 0
